@@ -23,7 +23,7 @@ if __name__ == "__main__":
         selected = option_menu("Trafic Analysis",
                                ["Streets with the highest congestion", "The average car density of the city", "Average time needed", "Mouhamadou", "Anicette", "Megane"],
                                icons=['signpost', 'car-front', 'alarm', 'person', 'person', 'person'
-                                      ], menu_icon="cast", default_index=1)
+                                      ], menu_icon="cast")
 
     st.title("Welcome to Beijing Traffic Analysis ")
 
