@@ -27,7 +27,7 @@ if __name__ == "__main__":
     st.title("Welcome to Beijing Traffic Analysis ")
 
 
-    if selected == "Traffic analysis":
+    if selected == "Traffic Analysis":
         file = pd.read_feather('dataf.csv')
 
         st.title("The average car density of the city")
