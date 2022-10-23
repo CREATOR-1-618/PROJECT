@@ -33,8 +33,6 @@ if __name__ == "__main__":
         st.title('Streets with the highest congestion')
         highest_congestion(file)
 
-    if selected == "The average car density of the city":
-        file = pd.read_feather('dataf.csv')
         st.title("The average car density of the city")
         car_density(file)
 
